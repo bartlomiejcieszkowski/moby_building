@@ -30,5 +30,5 @@ gcc g++ and similar are welcome too
         .\hack\make.ps1
     - need fixes in powershell scripts as double quoutes used in .go-autogen.ps1 are failing on powershell 7 with following error:
 
-        windres: hack/make/.resources-windows/common.rc:23: syntax error
+            windres: hack/make/.resources-windows/common.rc:23: syntax error
 
