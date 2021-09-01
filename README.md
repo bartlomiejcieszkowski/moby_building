@@ -25,6 +25,8 @@ gcc g++ and similar are welcome too
 2. Initialize go
 
         go mod init
+        go mod tidy
+        go mod vendor
 3. run
 
         .\hack\make.ps1
