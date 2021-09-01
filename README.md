@@ -23,8 +23,12 @@ gcc g++ and similar are welcome too
 0. Open powershell
 1. cd to moby dir
 2. Initialize go
-       go mod init
+
+        go mod init
 3. run
+
         .\hack\make.ps1
-    - needed adjust powershell scripts as double quoutes were failing on powershell 7
+    - need fixes in powershell scripts as double quoutes used in .go-autogen.ps1 are failing on powershell 7 with following error:
+
+        windres: hack/make/.resources-windows/common.rc:23: syntax error
 
