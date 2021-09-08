@@ -22,15 +22,18 @@ gcc g++ and similar are welcome too
 
 0. Open powershell
 1. cd to moby dir
-2. Initialize go
+2. install vndr
 
-        go mod init
-        go mod tidy
-        go mod vendor
+        go get github.com/LK4D4/vndr
+3. run vndr
+        vndr
+
+4. set environment variable GO111MODULE=auto
+
+        $env:GO111MODULE = 'auto'
 3. run
-
         .\hack\make.ps1
     - need fixes in powershell scripts as double quoutes used in .go-autogen.ps1 are failing on powershell 7 with following error:
-
             windres: hack/make/.resources-windows/common.rc:23: syntax error
 
+    - DONT RUN go mod init
