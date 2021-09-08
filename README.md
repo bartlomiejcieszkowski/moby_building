@@ -17,6 +17,8 @@ gcc g++ and similar are welcome too
 3. golang
     - https://golang.org/
 
+4. fork with changes that make it build
+    - https://github.com/bartlomiejcieszkowski/moby
 
 ### Build
 
@@ -25,7 +27,8 @@ gcc g++ and similar are welcome too
 2. install vndr
 
         go get github.com/LK4D4/vndr
-3. run vndr
+3. run vndr (this will take some time)
+
         vndr
 
 4. set environment variable GO111MODULE=auto
